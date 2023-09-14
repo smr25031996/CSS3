@@ -1,0 +1,19 @@
+body{
+    background-color: lightcoral;
+}
+#id_selector{
+    background-color: yellow;
+    color: green;
+
+}
+.class_selector{
+    color: blue;
+    font-size: larger;
+}
+h2,h3{
+color: blue;}
+
+div p{
+    background-color: yellow;
+    color: green;
+}

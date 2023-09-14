@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Attribute_Selector.css">
+    <style>
+           a[target] {
+              text-decoration: none;
+        }
+            
+            a[target=_blank] {
+              font-size: x-large;
+        }
+            
+            section[class$="para"]::first-letter {
+              font-size: 200%;
+              color: purple;
+        }
+        section[class$="para"]{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+        }
+    </style>
+</head>
+<body>
+    <form>
+		<h1>Login Form</h1> 
+		Username: <input type="text" /><br/><br/>
+		Password: <input type="text" /><br/><br/>
+		<input type="button" value="Login">	
+	</form> 
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" target="_blank">Information</a></li>
+            <li><a href="#" target="_self">Contact us</a></li>
+        </ul>
+    </nav>
+    <section class="para_section">
+        <h2>The is the paragraph within the first section tag.</h2>
+        <p>The class name of the section is "para"
+        </p>
+    </section>
+    <div class="para">
+        <p>This is the paragraph element within the div tag with the target styling</p>
+    </div>
+
+    <section class="last_para">
+        <h2>This is the last section of the page</h2>
+    </section>
+    <div class="last">
+        This div class value contains 'par' value in it
+    </div>
+
+</body>
+</html>
