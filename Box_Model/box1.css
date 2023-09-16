@@ -1,0 +1,16 @@
+#box{
+    border: 2px solid red;
+    width: 100px;
+    padding: 80px;
+}
+#box1{
+    border: 3px dashed red;
+    padding-right: 30px;
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+#box2{
+    border: 5px solid red;
+    border-radius: 5px 36px 10px 30px;
+}
