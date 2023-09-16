@@ -1,0 +1,31 @@
+div.out2
+{
+    width: 650px;
+    height: 370px;
+    margin: 70px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.out2 li
+{
+    margin: 5px 0;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid #ccc;
+    background-color: #87CEFA;
+    
+}
+.out2 a
+{
+	font:bold 1.4em arial, helvetica;
+}
+@font-face {
+    font-family: myfont ;
+    src: url('SeasideResortNF.ttf');
+}
+h3{
+    font-family: myfont;
+    text-transform:lowercase ;
+    text-shadow: 0 0 3px #fff, -1px -1px 0 hsl(172, 70%, 35%), -2px -2px 1px hsl(172, 36%, 48%), -2px -2px 2px hsl(80, 28%, 17%);
+
+}

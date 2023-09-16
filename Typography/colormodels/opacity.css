@@ -1,0 +1,14 @@
+#parent{
+    background-color: lightgray;
+    border: 1px solid wheat;
+    height: 200px;
+    width: 200px;
+}
+#child{
+    background-color: green;
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 500px;
+    height: 500px;
+    opacity: 0.7;
+}
